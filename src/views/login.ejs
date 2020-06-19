@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>alann</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+
+</body>
+
+<div class="loginbox">
+    <img src="image.png" class="avatar">
+    
+    
+
+	
+	<h1>Login Here</h1>
+
+		<form action="" method="post" name="form">
+			<p>Username</p>
+			<input type="username" name="username" id="username" placeholder="Enter Username">
+			<p>Password</p>
+			<input type="password" name="password" id="password" placeholder="Enter Password">
+			<input type="submit" name="Login" value="Login"
+            onclick="validation(this.form)">
+            <a href="#">lost your Password?</a><br>
+            <a href="#">don't have an account?</a>
+
+
+
+		</form></div>
+</div>
+</html>
+	<script language="javascript">
+	
+	function validation(form){
+	
+
+	if(form.username.value=="admin" && form.password.value=="12345"){
+			 alert(" sucessfully login")
+			window.open(location.href="#")
+		}
+		else{
+            alert("invalid username or password")
+			window.open(location.href="#")
+            
+		}
+	
+}
+
+</script>
